@@ -1,0 +1,29 @@
+{
+  "name": "less-json",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Interactive JSON viewer for NodeJS - inspect large JSON objects with expand/collapse functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klntsky/less-json.git"
+  },
+  "keywords": [
+    "json",
+    "ncurses",
+    "tool"
+  ],
+  "author": "klntsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/klntsky/less-json/issues"
+  },
+  "homepage": "https://github.com/klntsky/less-json#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0"
+  }
+}
